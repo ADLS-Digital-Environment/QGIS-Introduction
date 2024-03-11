@@ -56,18 +56,21 @@
 
                         <div class="fragment">Lesson 1</div>
                         <div class="fragment">
-                            <div>Introduction and first steps</div>
-                            <div>Raster and vector data</div>
+                            <div>Why QGIS?</div>
+                            <div>First Steps in QGIS</div>
+                            <div>Coordinate Systems & Projections</div>
                         </div>
                         <div class="fragment">
                             <div>Lesson 2</div>
-                            <div>Lesson 3</div>
                         </div>
-                        <div class="fragment">MCE and plugins in QGIS</div>
+                        <div class="fragment">
+                            <div>Raster and Vector Data in QGIS</div>
+                            <div>QGIS Plug-ins</div>
+                            <div>Sentinel Data in QGIS</div>
+    
+                        </div>
+                     
 
-
-                        <div class="fragment">Lesson 4</div>
-                        <div class="fragment">Sentinel data in QGIS</div>
                     </div>
                 </section>
                 <section>
@@ -138,9 +141,9 @@
 
 
                 <section>
-                    <span class="fragment highlight-red">Free</span> and Open Source </br>
+                    <span>Free and Open Source </br>
 
-                    <ul class="fragment">
+                    <ul>
                         <li> <i class="fa-solid fa-beer-mug-empty fa-fw"></i> Free as in free beer</li>
                         <li><i class="fa-solid fa-bullhorn fa-fw"></i> Free as in free speech</li>
                     </ul>
@@ -165,58 +168,11 @@
                     <i class="fa-brands fa-apple fa-5x fa-fw"></i>
 
                 </section>
+               
              
             </section>
 
-            <section>
-                <section data-background-color="#1a6acc">
-
-                    <h3>How is QGIS different from ArcGIS? </h3>
-
-                    <i class="fa-solid fa-jedi fa-3x"></i> <br><br>
-
-                    <small class="fragment">An <em>opinionated</em> side by side comparison</small>
-
-                </section>
-                <section>
-
-                    <div
-                        style="display: grid; grid-template-columns: repeat(3, auto); text-align: left; font-size: smaller; gap: 10px">
-                        <div> </div>
-                        <div> ArcGIS <img data-src="images/arcgis-icon.png" style="height:30px"> </div>
-                        <div> QGIS <img data-src="images/qgis-icon.png" style="height:30px"></div>
-
-
-                        <div class="fragment"> Point of contact</div>
-                        <div class="fragment"> Single</div>
-                        <div class="fragment"> none / multiple </div>
-
-                        <div class="fragment"> Community</div>
-                        <div class="fragment"> Weak</div>
-                        <div class="fragment"> Strong!</div>
-
-                        <div class="fragment"> Concept </div>
-                        <div class="fragment"> Seamless</div>
-                        <div class="fragment"> Modular </div>
-
-                        <div class="fragment"> Documentation </div>
-                        <div class="fragment"> Excellent</div>
-                        <div class="fragment"> Very technical</div>
-
-
-                        <div class="fragment"> User Interface (UX)</div>
-                        <div class="fragment"> State of the art </div>
-                        <div class="fragment"> Outdated </div>
-
-
-                        <div class="fragment">Compliance w/ OGC</div>
-                        <div class="fragment">Poor</div>
-                        <div class="fragment">High</div>
-                    </div>
-
-
-                </section>
-            </section>
+        
             <section>
 
                 <section data-background-color="#1a6acc">
@@ -649,13 +605,6 @@
                     </aside>
                 </section>
 
-                <section data-background-image="images/xkcd-1.png" data-background-size="contain"></section>
-                <section data-background-image="images/xkcd-2.png" data-background-size="contain"></section>
-                <section data-background-image="images/xkcd-3.png" data-background-size="contain"></section>
-
-                <section data-background-iframe="https://learn.arcgis.com/en/paths/map-projections/">
-                </section>
-
                 <section>
                     Break <br> <br>
                     <i class="fa-solid fa-mug-saucer fa-3x"></i>
@@ -759,10 +708,7 @@
                     <countdown time="900" autostart="yes" />
 
                 </section>
-                <section>
-                    Break <br> <br>
-                    <i class="fa-solid fa-mug-saucer fa-3x"></i>
-                </section>
+             
             </section>
 
 
@@ -807,10 +753,7 @@
                     <i class="fa-solid fa-hourglass"></i>
                     <countdown time="300" autostart="yes" />
                 </section>
-                <section>
-                    Break <br> <br>
-                    <i class="fa-solid fa-mug-saucer fa-3x"></i>
-                </section>
+              
             </section>
 
             <section>
@@ -845,17 +788,20 @@
 
                     <i class="fa-solid fa-person-biking fa-2x" style=""></i><br><br>
                     Exercise: <br><br>
-                    <ul>
+                    <ol>
                         <li>Download sentinel data from Moodle</li>
                         <li>Extract to reasonable location</li>
-                        <li>browse to that location within QGIS Browser</li>
+                        <li>Create a QGIS Project in that same location</li>
                         <li>Create an RGB image</li>
-                    </ul>
+                        <li>Optional: Create a NIR-GB image</li>
+                    </ol>
                     <br> <br>
                     <i class="fa-solid fa-hourglass"></i>
                     <countdown time="600" autostart="yes" />
 
                 </section>
+
+               
 
                 <section>
 
@@ -877,22 +823,14 @@
                     </figcaption>
                 </section>
                 <section><img data-src="images/ndvi.png"> </section>
-                <section>
-                    <i class="fa-solid fa-person-biking fa-2x" style=""></i><br><br>
-
-                    Exercise: Create a NIR-GB image <br> <br>
-
-                    <i class="fa-solid fa-hourglass"></i>
-                    <countdown time="300" autostart="yes" />
-                    <aside class="notes">
-                        Tip: Use the raster calculator (not gdal raster calculator)
-                    </aside>
-
-                </section>
+             
                 <section>
 
                     <i class="fa-solid fa-hammer fa-2x"></i> <br> <br>
                     Workshop: Calculating NDVI <br> <br>
+
+                    $\frac{\text{NIR}-\text{Red}}{\text{NIR}+\text{Red}}$ <br> <br>
+
 
                     <aside class="notes">
                         <ul>
@@ -909,26 +847,7 @@
 
                 </section>
             </section>
-            <section>
-                <section  data-background-color="#1a6acc" data-visibility="uncounted">
-                    
-
-
-                    <h3>Bonus Workshop: Graphical Model Builder</h3>
-
-                    <i class="fa-solid fa-hammer fa-2x"></i>
-                </section>
-
-
-                <aside class="notes">
-                    <ul>
-                        <li>Demonstrate building a tool to calculate NDVI based on two inputs (Red and NIR)</li>
-                        <li>Explain Model Inputs and Algorithms. TAKE MORE TIME FOR THIS STEP!</li>
-                        <li>Save the model to the project. Show the alternative of saving the model to a file</li>
-                        <li>Execute the model</li>
-                    </ul>
-                    <aside>
-            </section>
+         
         </div>
 
     </div>
