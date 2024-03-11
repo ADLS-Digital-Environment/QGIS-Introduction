@@ -51,10 +51,10 @@
                     <h4>Timetable</h4>
 
 
-                    <div style="display:grid;grid-template-columns:auto auto;text-align:left;">
+                    <div id="lesson-overview">
 
 
-                        <div class="fragment" style="align-self: center;">Lesson 1</div>
+                        <div class="fragment">Lesson 1</div>
                         <div class="fragment">
                             <div>Introduction and first steps</div>
                             <div>Raster and vector data</div>
@@ -63,7 +63,7 @@
                             <div>Lesson 2</div>
                             <div>Lesson 3</div>
                         </div>
-                        <div class="fragment" style="align-self: center;">MCE and plugins in QGIS</div>
+                        <div class="fragment">MCE and plugins in QGIS</div>
 
 
                         <div class="fragment">Lesson 4</div>
@@ -71,35 +71,47 @@
                     </div>
                 </section>
                 <section>
-                    <div style="display:grid;grid-template-columns:repeat(4, auto);grid-row-gap:50px">
+                    <div id="slide-types">
                         <div class="fragment">
-                            <i class="fa-solid fa-bullhorn" style=""></i>
-                            Inputs
+                            <div>
+                                <i class="fa-solid fa-bullhorn"></i>
+                                Inputs
+                            </div>
+                            <div>(I talk)</div>
                         </div>
                         <div class="fragment">
-                            <i class="fa-solid fa-clapperboard"></i>
-                            Demos
+                            <div>
+                                <i class="fa-solid fa-clapperboard"></i>
+                                Demos
+                            </div>
+                            <div>(I show)</div>
                         </div>
                         <div class="fragment">
-                            <i class="fa-solid fa-person-biking" style=""></i>
-                            Exercises
+                            <div>
+                                <i class="fa-solid fa-person-biking"></i>
+                                Exercises
+                            </div>
+                            <div>(you do)</div>
                         </div>
                         <div class="fragment">
+                            <div>
+                                <i class="fa-solid fa-hammer"></i>
+                                Workshops
+                            </div>
+                            <div>
+                                (we do)
+                            </div>
 
-                            <i class="fa-solid fa-hammer"></i>
-                            Workshops
+                            
                         </div>
-                        <div class="fragment">I talk</div>
-                        <div class="fragment">I show</div>
-                        <div class="fragment">you do</div>
-                        <div class="fragment">we do</div>
+                        
                     </div>
                 </section>
             </section>
             <section>
-                <section>
+                <section data-background-color="#1a6acc">
 
-                    Why QGIS? <br><br>
+                    <h3>Why QGIS?</h3> <br><br>
 
                     <i class="fa-solid fa-circle-question fa-3x"></i>
 
@@ -110,9 +122,9 @@
                     </aside>
                 </section>
 
-                <section>
+                <section data-auto-animate>
                     <ul>
-                        <li>Widely used and very popular</li>
+                        <li><span data-id="popular">Widely used and very popular</span></li>
                         <li>Free and Open Source </li>
                         <li>Cross-platform (Windows, MacOS &amp; Linux)</li>
                     </ul>
@@ -123,14 +135,12 @@
                             href="https://www.ratnaweera.xyz/blog/2022-11-30-ArcGIS-vs-QGIS/">ratnaweera.xyz/blog/2022-11-30-ArcGIS-vs-QGIS</a>
                     </figcaption>
                 </section>
-                <section data-background-iframe="https://www.ratnaweera.xyz/blog/2022-11-30-ArcGIS-vs-QGIS/">
 
-                </section>
 
                 <section>
-                    Free and Open Source </br>
+                    <span class="fragment highlight-red">Free</span> and Open Source </br>
 
-                    <ul>
+                    <ul class="fragment">
                         <li> <i class="fa-solid fa-beer-mug-empty fa-fw"></i> Free as in free beer</li>
                         <li><i class="fa-solid fa-bullhorn fa-fw"></i> Free as in free speech</li>
                     </ul>
@@ -159,9 +169,9 @@
             </section>
 
             <section>
-                <section>
+                <section data-background-color="#1a6acc">
 
-                    How is QGIS different from ArcGIS? <br><br>
+                    <h3>How is QGIS different from ArcGIS? </h3>
 
                     <i class="fa-solid fa-jedi fa-3x"></i> <br><br>
 
@@ -209,7 +219,8 @@
             </section>
             <section>
 
-                <section>First steps in QGIS <br> <br>
+                <section data-background-color="#1a6acc">
+                    <h3>First steps in QGIS </h3>
                     <i class="fa-solid fa-baby fa-3x"></i>
                 </section>
                 <section>
@@ -247,6 +258,7 @@
 
                         Demonstrate:
                         <ol>
+                            <li>Download data from moodle (all of it)</li>
                             <li>Important: Create a QGIS project first (this is helpful to set the working directory)
                             </li>
                             <li>Show what the coordinates display when moving the mouse over the map</li>
@@ -260,7 +272,9 @@
                 </section>
             </section>
             <section>
-                <section> Coordinate reference systems and projections <br> <br>
+                <section data-background-color="#1a6acc">
+                    
+                    <h3>Coordinate reference systems and projections</h3>
 
                     <i class="fa-solid fa-earth-africa fa-3x"></i>
                 </section>
@@ -650,8 +664,8 @@
             </section>
 
             <section>
-                <section>
-                    Raster and vector data in QGIS<br> <br>
+                <section data-background-color="#1a6acc">
+                    <h3>Raster and vector data in QGIS</h3>
 
                     <i class="fa-solid fa-screwdriver-wrench fa-3x"></i>
 
@@ -756,9 +770,9 @@
 
 
             <section>
-                <section>
+                <section data-background-color="#1a6acc">
 
-                    Multicriteria analysis with QGIS <br> <br>
+                    <h3>Multicriteria analysis with QGIS</h3>
 
                     <i class="fa-solid fa-chart-area fa-3x"></i>
                 </section>
@@ -872,8 +886,8 @@
                 </section>
             </section>
             <section>
-                <section>
-                    QGIS Plug-ins <br> <br>
+                <section data-background-color="#1a6acc">
+                    <h3>QGIS Plug-ins</h3>
 
                     <i class="fa-solid fa-plug fa-3x"></i>
                 </section>
@@ -915,7 +929,13 @@
             </section>
 
             <section>
-                <section>Sentinel data in QGIS</section>
+                <section data-background-color="#1a6acc">
+                    <h3>Sentinel data in QGIS</h3>
+
+                    <i class="fa-solid fa-satellite fa-2x"></i>
+                    
+
+                </section>
                 <section>
                     <i class="fa-solid fa-clapperboard fa-2x"></i> <br> <br>
 
@@ -1007,9 +1027,11 @@
                 </section>
             </section>
             <section>
-                <section>
+                <section  data-background-color="#1a6acc" data-visibility="uncounted">
+                    
 
-                    Workshop: Graphical Model Builder <br> <br>
+
+                    <h3>Bonus Workshop: Graphical Model Builder</h3>
 
                     <i class="fa-solid fa-hammer fa-2x"></i>
                 </section>
@@ -1017,7 +1039,7 @@
 
                 <aside class="notes">
                     <ul>
-                        <li>demonstrate building a tool to calculate NDVI based on two inputs (Red and NIR)</li>
+                        <li>Demonstrate building a tool to calculate NDVI based on two inputs (Red and NIR)</li>
                         <li>Explain Model Inputs and Algorithms. TAKE MORE TIME FOR THIS STEP!</li>
                         <li>Save the model to the project. Show the alternative of saving the model to a file</li>
                         <li>Execute the model</li>
@@ -1047,6 +1069,9 @@
                 { src: "countdown/countdown.js" },
             ],
             hash: true,
+            pdfSeparateFragments: false ,
+            slideNumber: "c/t",
+            // showNotes: "separate-page",
             countdown: { defaultTime: 600, autostart: "yes" },
             // Learn about plugins: https://reveal.js.com/plugins/
             plugins: [RevealHighlight, RevealNotes, RevealZoom, RevealMath],
