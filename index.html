@@ -769,122 +769,7 @@
 
 
 
-            <section>
-                <section data-background-color="#1a6acc">
-
-                    <h3>Multicriteria analysis with QGIS</h3>
-
-                    <i class="fa-solid fa-chart-area fa-3x"></i>
-                </section>
-                <section>
-                    Finding suitable locations for wind turbines <br> <br>
-                    <div class="pull-left">
-                        Exclusion areas <br> <br>
-                        <ul>
-                            <li>Lakes</li>
-                            <li>Settlement areas</li>
-                        </ul>
-                    </div>
-                    <div class="pull-right">
-                        Areas of interest<br> <br>
-                        <ul>
-                            <!-- <li>Sufficient wind potential</li> -->
-                            <li>Low risk of icing</li>
-                            <li>Easy access (existing road and low gradient)</li>
-                        </ul>
-                    </div>
-                </section>
-                <section>
-                    Process model for ArcGIS Pro
-                    <img data-src="images/mermaid-overview.svg" width=80%></img>
-                    <aside class="notes">
-                        <li>Euclidean distance to roads</li>
-                        <li>What does the tool "euclidean distance" actually do?</li>
-                    </aside>
-                </section>
-                <section>
-                    The ArcGIS Pro way<br> <br>
-                    <img data-src="images/mermaid-settlements1.svg">
-                    <aside class="notes">
-                        <li>live search for the euclidean distance in qgis</li>
-                        <li>live google the term qgis euclidean distance</li>
-                    </aside>
-                </section>
-                <section>
-                    ArcGIS vs. QGIS <br> <br>
-                    <img data-src="images/mermaid-settlements2.svg">
-                    <aside class="notes">
-                        <ul>
-                            <li>demonstrate the necessary steps</li>
-                            <li>Rasterize: You MUST specify an extent</li>
-                            <li>Proximity: You MUST choose Distance units: Georeferenced units to get a distance in
-                                Meters (instead of cell numbers)</li>
-                            <li>Demonstrate reclassify by table</li>
-                            <li>Their turn: Repeat the steps rasterize, proximity, reclassify</li>
-                        </ul>
-
-                    </aside>
-                </section>
-                <section>
-                    <div>
-                        <i class="fa-solid fa-person-biking"></i> Exercise: Complete the MCA
-
-                        <i class="fa-solid fa-hourglass"></i>
-                        <countdown time="1800" autostart="yes" />
-                    </div>
-                    <div>
-                        <table cellspacing="0"
-                            style="font-size:small; background-color: #04AA6D;margin-right: 0px;width:100%">
-                            <colgroup>
-                                <col style="background-color:#4caf50">
-                                </col>
-                            </colgroup>
-                            <tr>
-                                <th>Class</th>
-                                <!-- <th>Windspeed (dm/s)</th> -->
-                                <th>Slope (Degrees)</th>
-                                <th>Distance to Roads </th>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <!-- <td>0- 35</td> -->
-                                <td>&#62;20</td>
-                                <td>&#62;2'000</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <!-- <td>35-45</td> -->
-                                <td>15-20</td>
-                                <td>1'500-2'000</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <!-- <td>45-55</td> -->
-                                <td>10-15</td>
-                                <td>1'000-1'500</td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <!-- <td>55-65</td> -->
-                                <td>5-10</td>
-                                <td>500-1'000</td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <!-- <td>&#62;65</td> -->
-                                <td>0-5</td>
-                                <td>0-500</td>
-                            </tr>
-                        </table>
-
-                        <img data-src="images/mermaid-overview.svg" style="max-width:100%"></img>
-                        <aside class="notes">
-                            just work as far as you can, what you cannot finish will be the assignment for next week
-
-                        </aside>
-                    </div>
-                </section>
-            </section>
+           
             <section>
                 <section data-background-color="#1a6acc">
                     <h3>QGIS Plug-ins</h3>
@@ -996,8 +881,6 @@
                     <i class="fa-solid fa-person-biking fa-2x" style=""></i><br><br>
 
                     Exercise: Create a NIR-GB image <br> <br>
-
-                    $\frac{\text{NIR}-\text{Red}}{\text{NIR}+\text{Red}}$ <br> <br>
 
                     <i class="fa-solid fa-hourglass"></i>
                     <countdown time="300" autostart="yes" />
