@@ -9,3 +9,5 @@
 - Speaker View of these slides:
   - https://remote-sensing-zhaw.github.io/QGIS-introduction/?notes
 
+
+- URL for Students: https://adls-digital-environment.github.io/QGIS-Introduction/?navigationMode=linear
