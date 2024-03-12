@@ -4,4 +4,4 @@
 .Ruserdata
 .config
 .local
-*.pdf
+./*.pdf
